@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!-- Presentation created using reveal.js: https://github.com/hakimel/reveal.js -->
+    <!-- Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se -->
+
+    <title>PGDayEU Well Made to Well Known</title>
+
+    <meta name="description" content="15 minute presentation on app store optimization and uswer growth for PhoneGap apps.">
+    <meta name="author" content="https://twitter.com/heryandotus">
+
+     <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="css/reveal.min.css">
+    <link rel="stylesheet" href="css/style.css" id="theme">
+
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="css/ionicons.css">
+
+    <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+    <script>
+      document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+    </script>
+
+  </head>
+
+  <body>
+
+    <div class="reveal">
+
+      <div class="slides">
+
+        <section data-background="img/tetons.jpg" class="tetons">
+          <i class="icon ion-stats" style="color:white;font-size:250px;"></i> 
+          <h2>Market.js</h2>
+          <p class="subtext">(not real)</p>
+          <h5 class="framework-url presenter">
+            <a href="http://twitter.com/heryandotus" target="_blank">Ryan Hanna @heryandotus</a>
+          </h5>
+        </section>
+
+        <section>
+          <h2>Influencer Outreach</h2>
+          <p class="subtext">Blogs, Newsletters, Media, Other Frameworks</p>
+        </section>
+
+        <section>
+          <h2>Building Champions</h2>
+          <p class="subtext">Feedback, Follow Up, Social, Funnel</p>
+        </section>
+
+        <section>
+          <h2>Someone Cares</h2>
+          <p class="subtext">Put yourself out there</p>
+        </section>
+
+        <section class="toolkit left">
+          <h2>Links</h2>
+          <ul>
+            <li><a href="http://www.buzinga.com.au/buzz/competitive-analysis-on-apps/">Competitor Analysis</a> great competitor analysis article</li>
+            <li><a href="http://www.socialmediatoday.com/content/influencer-outreach-trigger-social-media-roi">Influencer Outreach Article</a> great advise</li>
+          </ul>
+          <h2>Mobile App Focused</h2>
+          <ul>
+            <li><a href="http://www.appannie.com/">App Annie</a><p> store stats, advertising analytics, keyword analytics, daily emails, reviews, intelligence</p></li>
+              <li><a href="http://searchman.com/">Searchman</a><p> keyword analysis tool</p></li>
+              <li><a href="http://dancounsell.com/">Dan Counsell</a><p> great articles about launching and marketing apps</p></li>
+          </ul>
+        </section>
+
+        <section data-background="img/zion.jpg" class="tetons">
+          <h1 class="final-shout"><a href="https://twitter.com/heryandotus" target="_blank">@heryandotus</a></h1>
+        </section>
+
+
+      </div>
+
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.min.js"></script>
+
+    <script>
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+        transition: Reveal.getQueryHash().transition || 'fade', // default/cube/page/concave/zoom/linear/fade/none
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+        ]
+      });
+      var backgrounds = document.getElementsByClassName('tetons');
+      for (var i = 0; i < backgrounds.length; ++i) {
+          var item = backgrounds[i];  
+          item.parentNode.parentNode
+      }
+    </script>
+
+  </body>
+</html>
